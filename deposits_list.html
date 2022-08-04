@@ -18,7 +18,8 @@
     <script src="./cabinet/style/default/js/jquery.min.js"></script>
     <script src="./cabinet/style/default/js/jquery-ui.min.js"></script>
     <script src="./cabinet/style/default/libs/apexcharts/dist/apexcharts.min.js"></script>
-    <style type="text/css">.apexcharts-canvas {
+    <style type="text/css">
+        .apexcharts-canvas {
         position: relative;
         user-select: none;
         /* cannot give overflow: hidden as it will crop tooltips which overflow outside chart area */
@@ -915,6 +916,9 @@
     #google_translate_element2 {
         display: none !important;
     }
+    .text-left,.text-right{
+        border-width: 0 !important;
+    }
 </style>
 <script type="text/javascript">
     function googleTranslateElementInit2() {
@@ -1335,268 +1339,52 @@
                                                                     <tr>
                                                                         <td class="text-left"><i
                                                                                 class="bi bi-chevron-compact-right"></i>
-                                                                            Token
-                                                                            Bid:
+                                                                            <strong> Date </strong>
                                                                         </td>
                                                                         <td class="text-right">
-                                                                            <strong>112%</strong></td>
+                                                                            <strong>14.07.2022 11:45</strong></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="text-left"><i
                                                                                 class="bi bi-chevron-compact-right"></i>
-                                                                            Period:
+                                                                            <strong>Payment system</strong>
                                                                         </td>
-                                                                        <td class="text-right"><strong>24
-                                                                            h.</strong></td>
+                                                                        <td class="text-right"><strong>Tether TRC20</strong></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="text-left"><i
                                                                                 class="bi bi-chevron-compact-right"></i>
-                                                                            Interval:
+                                                                            <strong>Deposit</strong>
                                                                         </td>
-                                                                        <td class="text-right"><strong>24
-                                                                            h.</strong></td>
+                                                                        <td class="text-right"><strong>30.000000 USDT</strong></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="text-left"><i
                                                                                 class="bi bi-chevron-compact-right"></i>
-                                                                            Deposit:
+                                                                            <strong> Accruals </strong>
                                                                         </td>
                                                                         <td class="text-right">
-                                                                            <strong>included</strong></td>
+                                                                            <strong>0 of 1</strong></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="text-left"><i
+                                                                                class="bi bi-chevron-compact-right"></i>
+                                                                            <strong> Status </strong>
+                                                                        </td>
+                                                                        <td class="text-right">
+                                                                            <strong>Works</strong></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="text-left"><i
+                                                                                class="bi bi-chevron-compact-right"></i>
+                                                                            <strong> Profile </strong>
+                                                                        </td>
+                                                                        <td class="text-right">
+                                                                            <strong>0.0347145111 USDT</strong></td>
                                                                     </tr>
                                                                     </tbody>
                                                                 </table>
                                                             </div>
-                                                            <div class="col-12 mb-3" translate="no">
-                                                                <label class="form-label" translate="yes">
-                                                                    Select a payment
-                                                                    system</label>
-                                                                <div class="choices" data-type="select-one"
-                                                                     tabindex="0" role="listbox"
-                                                                     aria-haspopup="true" aria-expanded="false">
-                                                                    <div class="form-select"><select
-                                                                            name="wallet_type"
-                                                                            onchange="get_wallet_minmax(this);"
-                                                                            tarif_mindep="eyJwYXllZXJfdXNkIjoxMCwicGF5ZWVyX3J1YiI6NjM1LjksImVwYXljb3JlIjowLjEsImZrd2FsbGV0X3VzZCI6MTAsImZrd2FsbGV0X3J1YiI6NjM1LjksInFpd2lfdXNkIjoxMCwicWl3aV9ydWIiOjYzNS45LCJ5b29tb25leSI6NjM1LjksInZpc2FtYXN0ZXJjYXJkX3VzZCI6MTAsInZpc2FtYXN0ZXJjYXJkX3J1YiI6NTAwLCJ2aXNhbWFzdGVyY2FyZF91YWgiOjM1NC45LCJhZHZjYXNoX3VzZCI6MTAsImFkdmNhc2hfcnViIjo2MzUuOSwicGVyZmVjdG1vbmV5IjoxMCwiYml0Y29pbiI6MC4wMDA0NjcxOSwiZXRoZXJldW0iOjAuMDA4MjM5OTksImxpdGVjb2luIjowLjE5NDksImRvZ2Vjb2luIjoxNDQuOCwiZGFzaCI6MC4yMjA4OTk5OSwiYml0Y29pbmNhc2giOjAuMDkyMjMsInpjYXNoIjowLjE3MTQsInJpcHBsZSI6MjkuNDksInRyb24iOjE1MCwibW9uZXJvIjowLjA3NzYsIm5lbSI6MjQzLjQsIndhdmVzIjoxLjg2MywiYnl0ZWNvaW4iOjE4MDE2NS42LCJsaXNrIjo5LjAxNywicXR1bSI6My40NDcsImJuYiI6MC4wNCwidGV0aGVyb21uaSI6MTAuMDA5OTk5OTksInRldGhlcnRyYzIwIjo5LCJ0ZXRoZXJlcmMyMCI6MTAuMDA5OTk5OTl9"
-                                                                            tarif_maxdep="eyJwYXllZXJfdXNkIjoyMCwicGF5ZWVyX3J1YiI6MTI3MS44LCJlcGF5Y29yZSI6MTAwMDAsImZrd2FsbGV0X3VzZCI6MjAsImZrd2FsbGV0X3J1YiI6MTI3MS44LCJxaXdpX3VzZCI6MjAsInFpd2lfcnViIjoxMjcxLjgsInlvb21vbmV5IjoxMjcxLjgsInZpc2FtYXN0ZXJjYXJkX3VzZCI6MjAsInZpc2FtYXN0ZXJjYXJkX3J1YiI6MTAwMCwidmlzYW1hc3RlcmNhcmRfdWFoIjo3MDkuOCwiYWR2Y2FzaF91c2QiOjIwLCJhZHZjYXNoX3J1YiI6MTI3MS44LCJwZXJmZWN0bW9uZXkiOjIwLCJiaXRjb2luIjowLjAwMDkzNDM5LCJldGhlcmV1bSI6MC4wMTY0Nzk5OSwibGl0ZWNvaW4iOjAuMzg5OCwiZG9nZWNvaW4iOjI4OS42LCJkYXNoIjowLjQ0MTc5OTk5LCJiaXRjb2luY2FzaCI6MC4xODQ0NiwiemNhc2giOjAuMzQyOCwicmlwcGxlIjo1OC45OCwidHJvbiI6MzAwLCJtb25lcm8iOjAuMTU1MiwibmVtIjo0ODYuOCwid2F2ZXMiOjMuNzI2LCJieXRlY29pbiI6MzYwMzMxLjIsImxpc2siOjE4LjAzNCwicXR1bSI6Ni44OTQsImJuYiI6MC4wODI1LCJ0ZXRoZXJvbW5pIjoyMC4wMTk5OTk5OSwidGV0aGVydHJjMjAiOjIxLCJ0ZXRoZXJlcmMyMCI6MjAuMDE5OTk5OTl9"
-                                                                            class="form-select form-control"
-                                                                            id="selects" hidden="" tabindex="-1"
-                                                                            data-choice="active">
-                                                                        <option value="">Payment system</option>
-                                                                    </select>
-                                                                        <div class="choices__list choices__list--single">
-                                                                            <div class="choices__item choices__placeholder choices__item--selectable"
-                                                                                 data-item="" data-id="1"
-                                                                                 data-value=""
-                                                                                 data-custom-properties="null"
-                                                                                 aria-selected="true">Payment
-                                                                                system
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="choices__list dropdown-menu"
-                                                                         aria-expanded="false">
-                                                                        <div class="choices__list"
-                                                                             role="listbox">
-                                                                            <div id="choices--selects-item-choice-1"
-                                                                                 class="choices__item dropdown-item active choices__placeholder choices__item--disabled"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="1" data-value=""
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-disabled=""
-                                                                                 aria-disabled="true">
-                                                                                Payment system
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-2"
-                                                                                 class="choices__item dropdown-item choices__item--selectable is-highlighted"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="2"
-                                                                                 data-value="payeer_usd"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable=""
-                                                                                 aria-selected="true">
-                                                                                &gt; PAYEER USD
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-3"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="3"
-                                                                                 data-value="payeer_rub"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                PAYEER RUB
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-4"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="4"
-                                                                                 data-value="fkwallet_usd"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                FKWallet USD
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-5"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="5"
-                                                                                 data-value="fkwallet_rub"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                FKWallet RUB
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-6"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="6"
-                                                                                 data-value="qiwi_rub"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                QIWI RUB
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-7"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="7"
-                                                                                 data-value="visamastercard_rub"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Visa/Mastercard
-                                                                                RUB
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-8"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="8"
-                                                                                 data-value="perfectmoney"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Perfect Money
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-9"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="9"
-                                                                                 data-value="bitcoin"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Bitcoin
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-10"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="10"
-                                                                                 data-value="ethereum"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Ethereum
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-11"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="11"
-                                                                                 data-value="litecoin"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Litecoin
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-12"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="12"
-                                                                                 data-value="dogecoin"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Dogecoin
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-13"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="13" data-value="dash"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Dash
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-14"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="14"
-                                                                                 data-value="bitcoincash"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                BitcoinCash
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-15"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="15" data-value="zcash"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Zcash
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-16"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="16"
-                                                                                 data-value="ripple"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Ripple
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-17"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="17" data-value="tron"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                TRON
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-18"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="18" data-value="bnb"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Binance Coin
-                                                                                (BEP20)
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-19"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="19"
-                                                                                 data-value="tethertrc20"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Tether TRC20
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-20"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="20"
-                                                                                 data-value="tethererc20"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Tether ERC20
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-12" translate="no">
-                                                                <label class="form-label" translate="yes">Enter
-                                                                    amount</label>
-                                                                <input class="form-control" autocomplete="off"
-                                                                       name="m_amount" id="tdep_minmax"
-                                                                       type="text" placeholder="" disabled=""
-                                                                       inputmode="text">
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-footer" style="margin-top: 1.1rem;">
-                                                            <button type="submit" name="submit" id="form"
-                                                                    class="btn btn-primary"
-                                                                    style="width: 100%;"><i
-                                                                    class="bi bi-cart-plus"></i> Buy a token
-                                                            </button>
                                                         </div>
                                                     </form>
                                                 </div>
@@ -1632,267 +1420,52 @@
                                                                     <tr>
                                                                         <td class="text-left"><i
                                                                                 class="bi bi-chevron-compact-right"></i>
-                                                                            Token
-                                                                            Bid:
+                                                                            <strong> Date </strong>
                                                                         </td>
                                                                         <td class="text-right">
-                                                                            <strong>114%</strong></td>
+                                                                            <strong>14.07.2022 11:45</strong></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="text-left"><i
                                                                                 class="bi bi-chevron-compact-right"></i>
-                                                                            Period:
+                                                                            <strong>Payment system</strong>
                                                                         </td>
-                                                                        <td class="text-right"><strong>24
-                                                                            h.</strong></td>
+                                                                        <td class="text-right"><strong>Tether TRC20</strong></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="text-left"><i
                                                                                 class="bi bi-chevron-compact-right"></i>
-                                                                            Interval:
+                                                                            <strong>Deposit</strong>
                                                                         </td>
-                                                                        <td class="text-right"><strong>24
-                                                                            h.</strong></td>
+                                                                        <td class="text-right"><strong>30.000000 USDT</strong></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="text-left"><i
                                                                                 class="bi bi-chevron-compact-right"></i>
-                                                                            Deposit:
+                                                                            <strong> Accruals </strong>
                                                                         </td>
                                                                         <td class="text-right">
-                                                                            <strong>included</strong></td>
+                                                                            <strong>0 of 1</strong></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="text-left"><i
+                                                                                class="bi bi-chevron-compact-right"></i>
+                                                                            <strong> Status </strong>
+                                                                        </td>
+                                                                        <td class="text-right">
+                                                                            <strong>Works</strong></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="text-left"><i
+                                                                                class="bi bi-chevron-compact-right"></i>
+                                                                            <strong> Profile </strong>
+                                                                        </td>
+                                                                        <td class="text-right">
+                                                                            <strong>0.0347145111 USDT</strong></td>
                                                                     </tr>
                                                                     </tbody>
                                                                 </table>
                                                             </div>
-                                                            <div class="col-12 mb-3" translate="no">
-                                                                <label class="form-label" translate="yes">
-                                                                    Select a payment
-                                                                    system</label>
-                                                                <div class="choices" data-type="select-one"
-                                                                     tabindex="0" role="listbox"
-                                                                     aria-haspopup="true" aria-expanded="false">
-                                                                    <div class="form-select"><select
-                                                                            name="wallet_type"
-                                                                            onchange="get_wallet_minmax(this);"
-                                                                            tarif_mindep="eyJwYXllZXJfdXNkIjoyMCwicGF5ZWVyX3J1YiI6MTIzNi40LCJlcGF5Y29yZSI6MC4xLCJma3dhbGxldF91c2QiOjIwLCJma3dhbGxldF9ydWIiOjEyMzYuNCwicWl3aV91c2QiOjIwLCJxaXdpX3J1YiI6MTIzNi40LCJ5b29tb25leSI6MTIzNi40LCJ2aXNhbWFzdGVyY2FyZF91c2QiOjIwLCJ2aXNhbWFzdGVyY2FyZF9ydWIiOjEyMzYuNCwidmlzYW1hc3RlcmNhcmRfdWFoIjo3NDguMiwiYWR2Y2FzaF91c2QiOjIwLCJhZHZjYXNoX3J1YiI6MTIzNi40LCJwZXJmZWN0bW9uZXkiOjIwLCJiaXRjb2luIjowLjAwMDk5MzQsImV0aGVyZXVtIjowLjAxODA2LCJsaXRlY29pbiI6MC40MDY2LCJkb2dlY29pbiI6MzI4LjIsImRhc2giOjAuNDc4MiwiYml0Y29pbmNhc2giOjAuMTk3NDE5OTksInpjYXNoIjowLjM3MDYsInJpcHBsZSI6NjIuMTgsInRyb24iOjMwMCwibW9uZXJvIjowLjE2MDkxOTk5LCJuZW0iOjUyMC4yLCJ3YXZlcyI6NC4wMTIsImJ5dGVjb2luIjozMjgyNTAuNiwibGlzayI6MjAuMDgsInF0dW0iOjcuNDYyLCJibmIiOjAuMDgsInRldGhlcm9tbmkiOjIwLjAxOTk5OTk5LCJ0ZXRoZXJ0cmMyMCI6MjAsInRldGhlcmVyYzIwIjoyMC4wMTk5OTk5OX0="
-                                                                            tarif_maxdep="eyJwYXllZXJfdXNkIjozMCwicGF5ZWVyX3J1YiI6MTg1NC42LCJlcGF5Y29yZSI6MTAwMDAsImZrd2FsbGV0X3VzZCI6MzAsImZrd2FsbGV0X3J1YiI6MTg1NC42LCJxaXdpX3VzZCI6MzAsInFpd2lfcnViIjoxODU0LjYsInlvb21vbmV5IjoxODU0LjYsInZpc2FtYXN0ZXJjYXJkX3VzZCI6MzAsInZpc2FtYXN0ZXJjYXJkX3J1YiI6MTg1NC42LCJ2aXNhbWFzdGVyY2FyZF91YWgiOjExMjIuMywiYWR2Y2FzaF91c2QiOjMwLCJhZHZjYXNoX3J1YiI6MTg1NC42LCJwZXJmZWN0bW9uZXkiOjMwLCJiaXRjb2luIjowLjAwMTQ5MDA5LCJldGhlcmV1bSI6MC4wMjcwOSwibGl0ZWNvaW4iOjAuNjA5OSwiZG9nZWNvaW4iOjQ5Mi4zLCJkYXNoIjowLjcxNzMsImJpdGNvaW5jYXNoIjowLjI5NjEzLCJ6Y2FzaCI6MC41NTU5LCJyaXBwbGUiOjkzLjI3LCJ0cm9uIjo0NTAsIm1vbmVybyI6MC4yNDEzNzk5OSwibmVtIjo3ODAuMywid2F2ZXMiOjYuMDE4LCJieXRlY29pbiI6NDkyMzc1Ljg5OTk5OTk5LCJsaXNrIjozMC4xMiwicXR1bSI6MTEuMTkzLCJibmIiOjAuMTMsInRldGhlcm9tbmkiOjMwLjAyOTk5OTk5LCJ0ZXRoZXJ0cmMyMCI6MzAuNSwidGV0aGVyZXJjMjAiOjMwLjAyOTk5OTk5fQ=="
-                                                                            class="form-select form-control"
-                                                                            id="selects" hidden="" tabindex="-1"
-                                                                            data-choice="active">
-                                                                        <option value="">Payment system</option>
-                                                                    </select>
-                                                                        <div class="choices__list choices__list--single">
-                                                                            <div class="choices__item choices__placeholder choices__item--selectable"
-                                                                                 data-item="" data-id="1"
-                                                                                 data-value=""
-                                                                                 data-custom-properties="null"
-                                                                                 aria-selected="true">Payment
-                                                                                system
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="choices__list dropdown-menu"
-                                                                         aria-expanded="false">
-                                                                        <div class="choices__list"
-                                                                             role="listbox">
-                                                                            <div id="choices--selects-item-choice-1"
-                                                                                 class="choices__item dropdown-item active choices__placeholder choices__item--disabled"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="1" data-value=""
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-disabled=""
-                                                                                 aria-disabled="true">
-                                                                                Payment system
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-2"
-                                                                                 class="choices__item dropdown-item choices__item--selectable is-highlighted"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="2"
-                                                                                 data-value="payeer_usd"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable=""
-                                                                                 aria-selected="true">
-                                                                                &gt; PAYEER USD
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-3"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="3"
-                                                                                 data-value="payeer_rub"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                PAYEER RUB
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-4"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="4"
-                                                                                 data-value="fkwallet_usd"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                FKWallet USD
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-5"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="5"
-                                                                                 data-value="fkwallet_rub"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                FKWallet RUB
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-6"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="6"
-                                                                                 data-value="qiwi_rub"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                QIWI RUB
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-7"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="7"
-                                                                                 data-value="visamastercard_rub"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Visa/Mastercard
-                                                                                RUB
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-8"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="8"
-                                                                                 data-value="perfectmoney"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Perfect Money
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-9"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="9"
-                                                                                 data-value="bitcoin"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Bitcoin
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-10"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="10"
-                                                                                 data-value="ethereum"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Ethereum
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-11"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="11"
-                                                                                 data-value="litecoin"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Litecoin
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-12"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="12"
-                                                                                 data-value="dogecoin"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Dogecoin
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-13"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="13" data-value="dash"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Dash
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-14"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="14"
-                                                                                 data-value="bitcoincash"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                BitcoinCash
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-15"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="15" data-value="zcash"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Zcash
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-16"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="16"
-                                                                                 data-value="ripple"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Ripple
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-17"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="17" data-value="tron"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                TRON
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-18"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="18" data-value="bnb"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Binance Coin
-                                                                                (BEP20)
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-19"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="19"
-                                                                                 data-value="tethertrc20"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Tether TRC20
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-20"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="20"
-                                                                                 data-value="tethererc20"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Tether ERC20
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-12" translate="no">
-                                                                <label class="form-label" translate="yes">Enter
-                                                                    amount</label>
-                                                                <input class="form-control" autocomplete="off"
-                                                                       name="m_amount" id="tdep_minmax"
-                                                                       type="text" placeholder="" disabled="">
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-footer" style="margin-top: 1.1rem;">
-                                                            <button type="submit" name="submit" id="form"
-                                                                    class="btn btn-primary"
-                                                                    style="width: 100%;"><i
-                                                                    class="bi bi-cart-plus"></i> Buy a token
-                                                            </button>
                                                         </div>
                                                     </form>
                                                 </div>
@@ -1923,272 +1496,57 @@
                                                                     Min 30 Maх 50 $
                                                                     Open. Allowed to buy a token 1 time every
                                                                     24h</h5>
-                                                                <table class="table">
+                                                                <table class="table" caption>
                                                                     <tbody>
                                                                     <tr>
                                                                         <td class="text-left"><i
                                                                                 class="bi bi-chevron-compact-right"></i>
-                                                                            Token
-                                                                            Bid:
+                                                                            <strong> Date </strong>
                                                                         </td>
                                                                         <td class="text-right">
-                                                                            <strong>116%</strong></td>
+                                                                            <strong>14.07.2022 11:45</strong></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="text-left"><i
                                                                                 class="bi bi-chevron-compact-right"></i>
-                                                                            Period:
+                                                                            <strong>Payment system</strong>
                                                                         </td>
-                                                                        <td class="text-right"><strong>24
-                                                                            h.</strong></td>
+                                                                        <td class="text-right"><strong>Tether TRC20</strong></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="text-left"><i
                                                                                 class="bi bi-chevron-compact-right"></i>
-                                                                            Interval:
+                                                                            <strong>Deposit</strong>
                                                                         </td>
-                                                                        <td class="text-right"><strong>24
-                                                                            h.</strong></td>
+                                                                        <td class="text-right"><strong>30.000000 USDT</strong></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td class="text-left"><i
                                                                                 class="bi bi-chevron-compact-right"></i>
-                                                                            Deposit:
+                                                                            <strong> Accruals </strong>
                                                                         </td>
                                                                         <td class="text-right">
-                                                                            <strong>included</strong></td>
+                                                                            <strong>0 of 1</strong></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="text-left"><i
+                                                                                class="bi bi-chevron-compact-right"></i>
+                                                                            <strong> Status </strong>
+                                                                        </td>
+                                                                        <td class="text-right">
+                                                                            <strong>Works</strong></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="text-left"><i
+                                                                                class="bi bi-chevron-compact-right"></i>
+                                                                            <strong> Profile </strong>
+                                                                        </td>
+                                                                        <td class="text-right">
+                                                                            <strong>0.0347145111 USDT</strong></td>
                                                                     </tr>
                                                                     </tbody>
                                                                 </table>
                                                             </div>
-                                                            <div class="col-12 mb-3" translate="no">
-                                                                <label class="form-label" translate="yes">
-                                                                    Select a payment
-                                                                    system</label>
-                                                                <div class="choices" data-type="select-one"
-                                                                     tabindex="0" role="listbox"
-                                                                     aria-haspopup="true" aria-expanded="false">
-                                                                    <div class="form-select"><select
-                                                                            name="wallet_type"
-                                                                            onchange="get_wallet_minmax(this);"
-                                                                            tarif_mindep="eyJwYXllZXJfdXNkIjozMCwicGF5ZWVyX3J1YiI6MTg1NS41LCJlcGF5Y29yZSI6MC4xLCJma3dhbGxldF91c2QiOjMwLCJma3dhbGxldF9ydWIiOjE4NTUuNSwicWl3aV91c2QiOjMwLCJxaXdpX3J1YiI6MTg1NS41LCJ5b29tb25leSI6MTg1NS41LCJ2aXNhbWFzdGVyY2FyZF91c2QiOjMwLCJ2aXNhbWFzdGVyY2FyZF9ydWIiOjE4NTUuNSwidmlzYW1hc3RlcmNhcmRfdWFoIjoxMTEwLjMsImFkdmNhc2hfdXNkIjozMCwiYWR2Y2FzaF9ydWIiOjE4NTUuNSwicGVyZmVjdG1vbmV5IjozMCwiYml0Y29pbiI6MC4wMDE0NTk4LCJldGhlcmV1bSI6MC4wMjUxMjc5OSwibGl0ZWNvaW4iOjAuNTg3MSwiZG9nZWNvaW4iOjQ4Mi4xLCJkYXNoIjowLjY4MjgsImJpdGNvaW5jYXNoIjowLjI5MTYzLCJ6Y2FzaCI6MC41MTg2OTk5OSwicmlwcGxlIjo4MCwidHJvbiI6NDUwLCJtb25lcm8iOjAuMjIzMTcsIm5lbSI6NzE2LjEsIndhdmVzIjo1LjkyMiwiYnl0ZWNvaW4iOjUxOTU1MC4yLCJsaXNrIjoyOS4xNTQsInF0dW0iOjEwLjg2NiwiYm5iIjowLjEyLCJ0ZXRoZXJvbW5pIjozMC4wMjk5OTk5OSwidGV0aGVydHJjMjAiOjMwLCJ0ZXRoZXJlcmMyMCI6MzB9"
-                                                                            tarif_maxdep="eyJwYXllZXJfdXNkIjo1MCwicGF5ZWVyX3J1YiI6MzA5Mi41LCJlcGF5Y29yZSI6MTAwMDAsImZrd2FsbGV0X3VzZCI6NTAsImZrd2FsbGV0X3J1YiI6MzA5Mi41LCJxaXdpX3VzZCI6NTAsInFpd2lfcnViIjozMDkyLjUsInlvb21vbmV5IjozMDkyLjUsInZpc2FtYXN0ZXJjYXJkX3VzZCI6NTAsInZpc2FtYXN0ZXJjYXJkX3J1YiI6MzA5Mi41LCJ2aXNhbWFzdGVyY2FyZF91YWgiOjE4NTAuNSwiYWR2Y2FzaF91c2QiOjUwLCJhZHZjYXNoX3J1YiI6MzA5Mi41LCJwZXJmZWN0bW9uZXkiOjUwLCJiaXRjb2luIjowLjAwMjQzMywiZXRoZXJldW0iOjAuMDQxODgsImxpdGVjb2luIjowLjk3ODUsImRvZ2Vjb2luIjo4MDMuNSwiZGFzaCI6MS4xMzgsImJpdGNvaW5jYXNoIjowLjQ4NjA1LCJ6Y2FzaCI6MC44NjQ1LCJyaXBwbGUiOjE0NSwidHJvbiI6NzUwLCJtb25lcm8iOjAuMzcxOTUsIm5lbSI6MTE5My41LCJ3YXZlcyI6OS44NywiYnl0ZWNvaW4iOjg2NTkxNywibGlzayI6NDguNTksInF0dW0iOjE4LjExLCJibmIiOjAuMjEsInRldGhlcm9tbmkiOjUwLjA1LCJ0ZXRoZXJ0cmMyMCI6NTAuNSwidGV0aGVyZXJjMjAiOjUwLjV9"
-                                                                            class="form-select form-control"
-                                                                            id="selects" hidden="" tabindex="-1"
-                                                                            data-choice="active">
-                                                                        <option value="">Payment system</option>
-                                                                    </select>
-                                                                        <div class="choices__list choices__list--single">
-                                                                            <div class="choices__item choices__placeholder choices__item--selectable"
-                                                                                 data-item="" data-id="1"
-                                                                                 data-value=""
-                                                                                 data-custom-properties="null"
-                                                                                 aria-selected="true">Payment
-                                                                                system
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="choices__list dropdown-menu"
-                                                                         aria-expanded="false">
-                                                                        <div class="choices__list"
-                                                                             role="listbox">
-                                                                            <div id="choices--selects-item-choice-1"
-                                                                                 class="choices__item dropdown-item active choices__placeholder choices__item--disabled"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="1" data-value=""
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-disabled=""
-                                                                                 aria-disabled="true">
-                                                                                Payment system
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-2"
-                                                                                 class="choices__item dropdown-item choices__item--selectable is-highlighted"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="2"
-                                                                                 data-value="payeer_usd"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable=""
-                                                                                 aria-selected="true">
-                                                                                &gt; PAYEER USD
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-3"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="3"
-                                                                                 data-value="payeer_rub"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                PAYEER RUB
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-4"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="4"
-                                                                                 data-value="fkwallet_usd"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                FKWallet USD
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-5"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="5"
-                                                                                 data-value="fkwallet_rub"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                FKWallet RUB
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-6"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="6"
-                                                                                 data-value="qiwi_rub"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                QIWI RUB
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-7"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="7"
-                                                                                 data-value="visamastercard_rub"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Visa/Mastercard
-                                                                                RUB
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-8"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="8"
-                                                                                 data-value="perfectmoney"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Perfect Money
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-9"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="9"
-                                                                                 data-value="bitcoin"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Bitcoin
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-10"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="10"
-                                                                                 data-value="ethereum"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Ethereum
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-11"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="11"
-                                                                                 data-value="litecoin"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Litecoin
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-12"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="12"
-                                                                                 data-value="dogecoin"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Dogecoin
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-13"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="13" data-value="dash"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Dash
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-14"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="14"
-                                                                                 data-value="bitcoincash"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                BitcoinCash
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-15"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="15" data-value="zcash"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Zcash
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-16"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="16"
-                                                                                 data-value="ripple"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Ripple
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-17"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="17" data-value="tron"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                TRON
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-18"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="18" data-value="bnb"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Binance Coin
-                                                                                (BEP20)
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-19"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="19"
-                                                                                 data-value="tethertrc20"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Tether TRC20
-                                                                            </div>
-                                                                            <div id="choices--selects-item-choice-20"
-                                                                                 class="choices__item dropdown-item choices__item--selectable"
-                                                                                 role="option" data-choice=""
-                                                                                 data-id="20"
-                                                                                 data-value="tethererc20"
-                                                                                 data-select-text="Press to select"
-                                                                                 data-choice-selectable="">&gt;
-                                                                                Tether ERC20
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-12" translate="no">
-                                                                <label class="form-label" translate="yes">Enter
-                                                                    amount</label>
-                                                                <input class="form-control" autocomplete="off"
-                                                                       name="m_amount" id="tdep_minmax"
-                                                                       type="text" placeholder="" disabled="">
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-footer" style="margin-top: 1.1rem;">
-                                                            <button type="submit" name="submit" id="form"
-                                                                    class="btn btn-primary"
-                                                                    style="width: 100%;"><i
-                                                                    class="bi bi-cart-plus"></i> Buy a token
-                                                            </button>
                                                         </div>
                                                     </form>
                                                 </div>
